@@ -11,6 +11,12 @@
 
 ---
 
+## 效果演示
+
+点击前台应用的 Dock 图标收起窗口,再点还原:
+
+![ToggleDock 效果演示](assets/ToggleDock.gif)
+
 ## 功能
 
 - **点击收起 / 再点还原** —— 默认最小化（带 genie 动画），可在设置里切换为隐藏（等同 ⌘H）
@@ -47,3 +53,7 @@ swift build       # 或 SwiftPM 方式
 # ToggleDock (English)
 
 Click the frontmost app's Dock icon to collapse its windows (genie animation), click again to restore — like the Windows taskbar. A native Swift + AppKit menu bar app for Apple Silicon (macOS 14+). Requires Accessibility permission. Download from [Releases](https://github.com/TEARSUNCLE/ToggleDock/releases).
+
+## Demo
+
+![ToggleDock demo](assets/ToggleDock.gif)
