@@ -17,6 +17,10 @@ xcuserdata/
 # 发布产物
 *.app
 *.zip
+*.dmg
+
+# 图标生成脚本的预览输出(运行 make-app-icon.swift 后自动生成,无需入库)
+Scripts/AppIcon-preview.png
 
 # 签名与密钥（绝不入库）
 *.p12
