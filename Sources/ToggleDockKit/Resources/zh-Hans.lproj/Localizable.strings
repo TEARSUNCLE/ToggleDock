@@ -1,0 +1,57 @@
+/* ToggleDock 简体中文文案（默认语言） */
+
+/* 菜单栏 */
+"menu.needPermission" = "缺少辅助功能权限，点击授权";
+"menu.settings" = "设置…";
+"menu.checkUpdates" = "检查更新…";
+"menu.quit" = "退出 ToggleDock";
+
+/* 首次启动权限引导 */
+"ax.onboarding.title" = "ToggleDock 需要辅助功能权限";
+"ax.onboarding.body" = "ToggleDock 需要「辅助功能」权限来识别你点击的 Dock 图标并收起/还原窗口。它不会记录屏幕内容，也不会读取任何个人数据。";
+"ax.onboarding.openSettings" = "打开系统设置";
+"ax.onboarding.later" = "稍后";
+
+/* 最小化到应用图标引导 */
+"minimizeHint.title" = "开启「最小化到应用图标」";
+"minimizeHint.body" = "为了获得 Windows 任务栏那样的 genie 吸入动画，需要开启系统设置中的「将窗口最小化到程序坞中应用图标上」。未开启时，窗口会堆在 Dock 右侧。";
+"minimizeHint.enable" = "自动开启";
+"minimizeHint.later" = "保持现状";
+
+/* 设置窗口 */
+"settings.title" = "ToggleDock 设置";
+"settings.section.behavior" = "行为";
+"settings.collapseMode" = "收起方式";
+"settings.mode.minimize" = "最小化（genie 动画，推荐）";
+"settings.mode.hide" = "隐藏（等同 ⌘H，无动画）";
+"settings.minimizeHint" = "未开启「将窗口最小化到应用图标」，动画会堆到 Dock 右侧";
+"settings.minimizeFix" = "自动开启该设置";
+
+"settings.section.general" = "通用";
+"settings.focus" = "单应用聚焦模式";
+"settings.focusHint" = "切换到另一个应用时，自动收起上一个应用，屏幕上只保留一个应用（多显示器下不影响其他屏幕）。";
+"settings.launchAtLogin" = "登录时启动";
+"settings.launchAtLoginFailed" = "设置登录项失败，请在「系统设置 ▸ 通用 ▸ 登录项」中手动添加。";
+
+"settings.section.language" = "语言";
+"settings.language" = "界面语言";
+"language.system" = "跟随系统";
+"language.zhHans" = "简体中文";
+"language.en" = "English";
+
+"settings.section.about" = "关于";
+"settings.accessibility.granted" = "辅助功能权限：已授予";
+"settings.accessibility.notGranted" = "辅助功能权限：未授予，应用不会生效";
+"settings.openSystemSettings" = "打开系统设置";
+"settings.autoUpdate" = "自动检查更新";
+"settings.version" = "版本";
+
+/* 在线更新检测（无 Sparkle 构建时菜单「检查更新」走 GitHub Releases API） */
+"updater.found.title" = "发现新版本 %@";
+"updater.found.message" = "当前安装的是 %@。更新说明：\n%@";
+"updater.found.download" = "前往下载";
+"updater.found.later" = "稍后再说";
+"updater.upToDate.title" = "已是最新版本";
+"updater.upToDate.message" = "当前安装的是 %@，已是最新版本。";
+"updater.upToDate.releasesPage" = "前往 GitHub 发布页";
+"updater.upToDate.close" = "关闭";

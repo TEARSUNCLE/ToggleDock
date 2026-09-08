@@ -1,0 +1,57 @@
+/* ToggleDock English strings */
+
+/* Menu bar */
+"menu.needPermission" = "Accessibility permission required — click to grant";
+"menu.settings" = "Settings…";
+"menu.checkUpdates" = "Check for Updates…";
+"menu.quit" = "Quit ToggleDock";
+
+/* First-run permission onboarding */
+"ax.onboarding.title" = "ToggleDock Needs Accessibility Permission";
+"ax.onboarding.body" = "ToggleDock uses Accessibility permission to recognize which Dock icon you click and to hide or restore its windows. It never records your screen or reads personal data.";
+"ax.onboarding.openSettings" = "Open System Settings";
+"ax.onboarding.later" = "Later";
+
+/* Minimize-to-application-icon hint */
+"minimizeHint.title" = "Enable “Minimize windows into application icon”";
+"minimizeHint.body" = "For the Windows-taskbar-style genie animation, macOS should minimize windows into the app's own Dock icon. Otherwise minimized windows pile up on the right side of the Dock.";
+"minimizeHint.enable" = "Enable It";
+"minimizeHint.later" = "Keep Current";
+
+/* Settings window */
+"settings.title" = "ToggleDock Settings";
+"settings.section.behavior" = "Behavior";
+"settings.collapseMode" = "Collapse style";
+"settings.mode.minimize" = "Minimize (genie animation, recommended)";
+"settings.mode.hide" = "Hide (same as ⌘H, no animation)";
+"settings.minimizeHint" = "“Minimize windows into application icon” is off — windows will pile up on the right side of the Dock";
+"settings.minimizeFix" = "Turn It On";
+
+"settings.section.general" = "General";
+"settings.focus" = "Single-app focus mode";
+"settings.focusHint" = "Automatically collapse the previous app when you switch, keeping only one app on screen (other displays are untouched).";
+"settings.launchAtLogin" = "Launch at login";
+"settings.launchAtLoginFailed" = "Failed to set the login item. Add ToggleDock manually in System Settings ▸ General ▸ Login Items.";
+
+"settings.section.language" = "Language";
+"settings.language" = "Interface language";
+"language.system" = "System";
+"language.zhHans" = "简体中文";
+"language.en" = "English";
+
+"settings.section.about" = "About";
+"settings.accessibility.granted" = "Accessibility permission: granted";
+"settings.accessibility.notGranted" = "Accessibility permission: not granted — the app won't work";
+"settings.openSystemSettings" = "Open System Settings";
+"settings.autoUpdate" = "Automatically check for updates";
+"settings.version" = "Version";
+
+/* Online update check (non-Sparkle builds: menu "Check for Updates" queries the GitHub Releases API) */
+"updater.found.title" = "New version %@ available";
+"updater.found.message" = "You have %@ installed. Release notes:\n%@";
+"updater.found.download" = "Download";
+"updater.found.later" = "Later";
+"updater.upToDate.title" = "You're up to date";
+"updater.upToDate.message" = "%@ is the latest version.";
+"updater.upToDate.releasesPage" = "Open GitHub Releases";
+"updater.upToDate.close" = "Close";

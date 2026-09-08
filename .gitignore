@@ -1,0 +1,29 @@
+# macOS
+.DS_Store
+
+# Xcode / SPM
+.build/
+build/
+DerivedData/
+Vendor/
+*.xcuserstate
+xcuserdata/
+*.moved-aside
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# 发布产物
+*.app
+*.zip
+
+# 签名与密钥（绝不入库）
+*.p12
+*.p8
+*.cer
+*.mobileprovision
+.sparkle-eddsa-private-key*
+
+# 本机开发签名钥匙串(自签证书+私钥,绝不入库)
+Signing/

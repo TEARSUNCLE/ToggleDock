@@ -1,0 +1,31 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  build-and-test:
+    runs-on: macos-14
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Select Xcode
+        run: sudo xcode-select -s /Applications/Xcode_16.1.app 2>/dev/null || true
+
+      - name: Build (SwiftPM, release)
+        run: swift build -c release
+
+      - name: Test (Kit pure logic)
+        run: swift test
+
+      - name: Bundle .app (arm64)
+        run: |
+          chmod +x build.sh
+          ./build.sh
+
+      - name: Check artifact
+        run: |
+          test -f build/ToggleDock.app/Contents/MacOS/ToggleDock
+          lipo -info build/ToggleDock.app/Contents/MacOS/ToggleDock
