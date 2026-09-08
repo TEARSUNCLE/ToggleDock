@@ -53,7 +53,3 @@ swift build       # 或 SwiftPM 方式
 # ToggleDock (English)
 
 Click the frontmost app's Dock icon to collapse its windows (genie animation), click again to restore — like the Windows taskbar. A native Swift + AppKit menu bar app for Apple Silicon (macOS 14+). Requires Accessibility permission. Download from [Releases](https://github.com/TEARSUNCLE/ToggleDock/releases).
-
-## Demo
-
-![ToggleDock demo](assets/ToggleDock.gif)
