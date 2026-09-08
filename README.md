@@ -38,7 +38,7 @@ ToggleDock 是一个驻留菜单栏的小工具，不占 Dock、不占屏幕，�
 
 > 系统要求：Apple Silicon（M 系列）Mac，macOS 14 或更高。
 
-1. 从 [Releases](../../releases) 下载 `ToggleDock.zip`，解压后把 `ToggleDock.app` 移到「应用程序」文件夹
+1. 从 [Releases](../../releases) 下载 `ToggleDock-1.0.0.dmg`（或 `ToggleDock.zip`），把 `ToggleDock.app` 拖到「应用程序」文件夹
 2. 打开它（首次若被 Gatekeeper 拦截：右键应用 → 打开）
 3. 按提示授予 **辅助功能** 权限：系统设置 ▸ 隐私与安全性 ▸ 辅助功能 ▸ 打开 ToggleDock 开关
 4. 完成。点一下当前应用的 Dock 图标试试

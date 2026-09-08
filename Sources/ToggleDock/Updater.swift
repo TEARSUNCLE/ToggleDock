@@ -17,7 +17,7 @@ final class Updater {
     static let shared = Updater()
 
     /// GitHub 仓库（"owner/repo"）：在线检测与兜底跳转共用，发布后改这里即可。
-    static let repo = "tears/ToggleDock"
+    static let repo = "TEARSUNCLE/ToggleDock"
     /// 发布页：检测失败时的兜底目标，也是弹窗「前往下载」的最终落点。
     static let releasesURL = URL(string: "https://github.com/\(repo)/releases")!
     private static let latestReleaseAPI = URL(string: "https://api.github.com/repos/\(repo)/releases/latest")!
